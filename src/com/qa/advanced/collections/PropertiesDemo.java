@@ -14,18 +14,19 @@ public class PropertiesDemo {
         pr.load(new FileInputStream(new File("resources/DemoPropertyFile.properties")));
 
         String nameFromFile=pr.getProperty("name");
-        String stdIDFromFile=pr.getProperty("stdid");
+        String courseFromFile=pr.getProperty("course");
         String cityFromFile=pr.getProperty("city");
-        String ageFromFile=pr.getProperty("age");
-        String mobileNumFromFile=pr.getProperty("mobileNum");
+        String durationFromFile=pr.getProperty("duration");
+        String trainerFromFile=pr.getProperty("trainer");
+
 
 
 
 
         System.out.println(nameFromFile);
-        System.out.println(stdIDFromFile);
+        System.out.println(courseFromFile);
         System.out.println(cityFromFile);
-        System.out.println(ageFromFile);
-        System.out.println(mobileNumFromFile);
+        System.out.println(durationFromFile);
+        System.out.println(trainerFromFile);
     }
 }
