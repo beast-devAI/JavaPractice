@@ -23,9 +23,9 @@ public class StackDemo {
 
         st.push("Sarvesh");
 
-        System.out.println(st.size());;
+        System.out.println(st.size());
         System.out.println(st.peek());
-        System.out.println(st);;
+        System.out.println(st);
 
 
 
