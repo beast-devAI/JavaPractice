@@ -1,28 +1,38 @@
 package com.qa.advanced.collections;
 
-import java.util.HashSet;
-import java.util.Set;
-import java.util.Stack;
+import java.util.*;
 
 public class SetDemo {
 
     public static void main(String[] args) {
 
-        Set<String> stObj = new HashSet<String>();
+        HashSet<String> stObj = new HashSet<>();
 
-        stObj.add("Rupam");
-        stObj.add("Jyoti");
-        stObj.add("Harendra");
-        stObj.add("Pushpesh");
-        stObj.add("Sheetal");
-        stObj.add("Harendra");
-        stObj.add("Pushpesh");
-        stObj.add("Sheetal");
+        stObj.add("a");
+        stObj.add("b");
+        stObj.add("c");
+        stObj.add("d");
+        stObj.add("e");
+        stObj.add("f");
+        stObj.add("g");
+        stObj.add("h");
+        stObj.add("I");
+        stObj.add("J");
+        stObj.add("K");
+        stObj.add("L");
+        stObj.add("M");
+        stObj.add("N");
+        stObj.add("O");
+        stObj.add("P");
 
-       System.out.println(stObj);
+
+        System.out.println(stObj);
         System.out.println(stObj.size());
 
+        stObj.add("test");
 
+        System.out.println(stObj);
+        System.out.println(stObj.size());
 
 
     }
